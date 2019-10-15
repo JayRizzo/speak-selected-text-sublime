@@ -1,20 +1,16 @@
 {
-  "schema_version": "1.2",
-  "packages": [
-    {
-      "name": "Speak Selected Text",
-      "description": "A plugin to use the Mac's text to speech from Sublime Text 2.",
-      "author": "Scott Martin",
-      "homepage": "https://github.com/scottmartin/speak-selected-text-sublime",
-      "last_modified": "2013-02-29 18:52:23",
-      "platforms": {
-        "osx": [
-          {
-            "version": "0.0.0",
-            "url": "https://nodeload.github.com/scottmartin/speak-selected-text-sublime/zip/master"
-          }
-        ]
-      }
+  "schema_version": "3.1.1",
+  "packages": [{
+    "name": "Speak Selected Text",
+    "description": "A plug-in to use the Mac's text to speech for Sublime Text 3.",
+    "author": "Scott Martin, Jeromie Kirchoff",
+    "homepage": "https://github.com/JayRizzo/speak-selected-text-sublime",
+    "last_modified": "2019-10-15 01:28:00",
+    "platforms": {
+      "osx": [{
+        "version": "10.14.6",
+        "url": "https://nodeload.github.com/JayRizzo/speak-selected-text-sublime/zip/master"
+      }]
     }
-  ]
+  }]
 }
