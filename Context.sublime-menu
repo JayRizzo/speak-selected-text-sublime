@@ -1,3 +1,4 @@
-[
-    { "command": "speak_selected_text", "caption": "Speak Selected Text" }
-]
+[{
+    "caption": "Speak Selected Text",
+    "command": "speak_selected_text"
+}]
