@@ -27,7 +27,7 @@ mv Speak_Selected_Text/Context.sublime-menu ~/Library/Application\ Support/Subli
 mv Speak_Selected_Text/SpeakSelectedText.py ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/SpeakSelectedText.py
 
 # cleanup
-rm -rf ~/Library/Application Support/Sublime Text 3/Packages/User/Speak_Selected_Text
+rm -rf ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Speak_Selected_Text
 ```
 
 ## Usage
