@@ -21,10 +21,13 @@ This plug-in has been designed & updated for use with Mac OS X, and it is only n
 Once you have Git installed, just go into Sublime's Packages folder and clone the repo.
 
 ```bash
-$ cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
-$ git clone https://github.com/jayrizzo/speak-selected-text-sublime.git "Speak_Selected_Text"
-$ mv Speak_Selected_Text/Context.sublime-menu ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Context.sublime-menu
-$ mv Speak_Selected_Text/SpeakSelectedText.py ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/SpeakSelectedText.py
+cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+git clone https://github.com/jayrizzo/speak-selected-text-sublime.git "Speak_Selected_Text"
+mv Speak_Selected_Text/Context.sublime-menu ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Context.sublime-menu
+mv Speak_Selected_Text/SpeakSelectedText.py ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/SpeakSelectedText.py
+
+# cleanup
+rm -rf ~/Library/Application Support/Sublime Text 3/Packages/User/Speak_Selected_Text
 ```
 
 ## Usage
